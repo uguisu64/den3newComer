@@ -2,7 +2,7 @@
     let { title, description, link } = $props()
 </script>
 
-<a class="card" href={link}>
+<a class="card" href={link} target="_blank">
     <div class="card-content">
     <h4>{title}</h4>
     <p>{description}</p>

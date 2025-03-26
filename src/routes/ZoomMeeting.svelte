@@ -35,7 +35,7 @@
     <section>
         <h3>{meetingDatas[index].content}</h3>
         <p>{meetingDatas[index].date}</p>
-        <a href={meetingDatas[index].meetingUrl}>ZoomMeetingに参加する</a>
+        <a href={meetingDatas[index].meetingUrl} target="_blank">ZoomMeetingに参加する</a>
     </section>
 {/key}
 <p>電算はいつでも新入部員を歓迎します．メールで連絡いただければ，対応いたします．</p>
