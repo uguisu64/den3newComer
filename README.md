@@ -8,3 +8,4 @@ Svelteを採用したので，HTMLとJSの知識があれば何とかいじれ�
 
 ## ビルド手順
 
+GithubActionsでビルドできるようにする
