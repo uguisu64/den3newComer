@@ -16,7 +16,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: "den3newComer"
+			base: "/den3newComer"
 		}
 	}
 };
