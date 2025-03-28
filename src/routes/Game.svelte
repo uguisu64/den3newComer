@@ -22,6 +22,8 @@
 
 <h3>ゲーム班</h3>
 
+<div><img src="/den3newComer/g1.png" alt="ゲーム画像1"/></div>
+
 <p>ゲーム班では，Unityを使ったゲーム作りがメインです．昔はDxLiblaryなんかも使っていたのですが，時代ですね．今は完全にUnityに移行しています．ゲームはゲームエンジンを使えば比較的簡単に動くものが作れてフィードバックをもらいやすいので，何かプログラムしたいけどやりたいことがない人におすすめ，一緒にゲームを作りましょう</p>
 
 <h4>ブログ一覧(抜粋)</h4>
@@ -29,3 +31,16 @@
 {#each blogs as blog}
     <Card title={blog.title} link={blog.link} description={blog.description}></Card>
 {/each}
+
+<style>
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+        height: 80%;
+        object-fit: scale-down; /* 画像を枠内に収める */
+    }
+
+    
+</style>
