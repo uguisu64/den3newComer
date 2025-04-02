@@ -15,7 +15,7 @@
         },
         {
             title: "第3回",
-            date: "4/19(木) 20:00~",
+            date: "4/19(土) 20:00~",
             content: "2025年度 電子計算機研究会 新入生説明会",
             meetingUrl: "https://shibaura-it.zoom.us/j/98604222756?pwd=Ywrk1a6ZCG5BcSl5d1MWb4Q6bys6vI.1"
         },
