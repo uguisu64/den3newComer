@@ -27,6 +27,8 @@
 
 <h3>機械学習系</h3>
 
+<img src="/den3newComer/ai3.jpg" alt="機械学習画像1"/>
+
 <p>機械学習系では，ゲームの強化学習や，オセロAI作成などを行っています．アルゴリズムの理解をメインにやっている人もいますが，割と利用する方に舵を切っている人もちらほら．最近では猫も杓子も生成AIの時代なのでちょっと触ってみませんか？</p>
 
 <h4>ブログ一覧(抜粋)</h4>
@@ -34,3 +36,12 @@
 {#each blogs as blog}
     <Card title={blog.title} link={blog.link} description={blog.description}></Card>
 {/each}
+
+<style>
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+</style>

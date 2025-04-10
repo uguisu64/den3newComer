@@ -17,6 +17,8 @@
 
 <h3>その他</h3>
 
+<img src="/den3newComer/hoka3.jpg" alt="その他画像1"/>
+
 <p>上記のグループ以外でも，スマホアプリ作成や，イラスト制作をしている人もいます．</p>
 
 <h4>ブログ一覧(抜粋)</h4>
@@ -24,3 +26,13 @@
 {#each blogs as blog}
     <Card title={blog.title} link={blog.link} description={blog.description}></Card>
 {/each}
+
+<style>
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+        height: 50%;
+    }
+</style>

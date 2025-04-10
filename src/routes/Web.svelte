@@ -22,6 +22,8 @@
 
 <h3>Web系</h3>
 
+<img src="/den3newComer/web1.jpg" alt="web画像1"/>
+
 <p>Web系の部員はWebアプリ開発や，ブログの管理などを行っています．アプリ開発ではバックエンド，フロントエンドどちらも開発している部員がいます．</p>
 
 <h4>ブログ一覧(抜粋)</h4>
@@ -29,3 +31,12 @@
 {#each blogs as blog}
     <Card title={blog.title} link={blog.link} description={blog.description}></Card>
 {/each}
+
+<style>
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+</style>

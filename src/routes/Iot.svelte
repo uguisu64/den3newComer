@@ -17,6 +17,8 @@
 
 <h3>IoT制作</h3>
 
+<img src="/den3newComer/iot2.png" alt=iot画像1/>
+
 <p>IoT班では、主にラズベリーパイなどを用いて電子工作などを行っています！部室の温度や人がいるかどうかなどを外部から確認できるようにしたり、スピーカーの自作やファイルサーバーなどを作成したりなど電算の活動をより円滑にするためのものも作成しています！電子工作に興味がある、家をIoTにしたい人は大歓迎です！</p>
 
 <h4>ブログ一覧(抜粋)</h4>
@@ -24,3 +26,13 @@
 {#each blogs as blog}
     <Card title={blog.title} link={blog.link} description={blog.description}></Card>
 {/each}
+
+<style>
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+        object-fit: scale-down;
+    }
+</style>
