@@ -20,7 +20,7 @@
             meetingUrl: "https://shibaura-it.zoom.us/j/98604222756?pwd=Ywrk1a6ZCG5BcSl5d1MWb4Q6bys6vI.1"
         },
     ]
-    let index = $state(0)
+    let index = $state(2)
 </script>
 
 
