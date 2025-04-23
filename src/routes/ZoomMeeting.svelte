@@ -1,5 +1,8 @@
 <script>
     import HoverButton from "$lib/component/HoverButton.svelte";
+
+    import { onMount } from "svelte";
+    import { slide } from "svelte/transition";
     const meetingDatas = [
         {
             title: "第1回",
@@ -38,6 +41,12 @@
         <a href={meetingDatas[index].meetingUrl} target="_blank">ZoomMeetingに参加する</a>
     </section>
 {/key}
+
+<p>全3回のZoom説明会は終了しました．Zoom説明会で使用した，資料を公開します．</p>
+
+<embed src="/den3newComer/newComerSlide.pdf" type="application/pdf">
+
+
 <p>電算はいつでも新入部員を歓迎します．メールで連絡いただければ，対応いたします．</p>
 <p>Zoom説明会に参加できない方は相談からでも連絡いただいて大丈夫です．</p>
 <div class="email-box">電算公式メールアドレス：<br><strong>den3.shibaura@gmail.com</strong></div>
@@ -70,5 +79,10 @@
         border-left: 5px solid #007BFF;
         padding-left: 0.5rem;
         margin-bottom: 1rem;
+    }
+
+    embed {
+        width: 100%;
+        aspect-ratio: 16/10;
     }
 </style>
